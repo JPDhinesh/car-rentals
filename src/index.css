@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+nav a:hover,
+nav a.active {
+  font-weight: bolder;
+}
